@@ -1,0 +1,104 @@
+.wrapperEverythingGame{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background: linear-gradient(-180deg, #3a6186, #89253e);
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+.wrapFinalGreetings{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 50px;
+}
+.wrapperGame{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    min-height: 100vh;
+    gap: 30px;
+}
+.picturesContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 40px;
+}
+.picContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 33%;
+    height: auto;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 
+    1px -2px 5px 1px rgba(0, 0, 0, 0.5),
+    -1px -2px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 500px) {
+    .picturesContainer{
+        flex-flow: column nowrap;
+    }
+    .picContainer{
+        width: 45%;
+    }
+}
+
+
+
+.picGame{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.prizeButton{
+    padding: 1px 10px;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(16px) saturate(100%);
+    border: solid 1px rgb(0, 255, 236);
+    border-radius: 20px;
+}
+.roll{
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.returnButtonGame{
+    cursor: pointer;
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+}

@@ -1,0 +1,220 @@
+h1 {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+p {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+h2 {
+    color: black;
+    margin: 16px;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background: linear-gradient(to top, #a770ef, #cf8bf3, #fdb99b);
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.progressionBar{
+    margin: 10px 0px;
+}
+.cartQuestions {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 20px;
+    height: auto;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.404);
+    border-radius: 25px;
+    box-shadow:
+      /* The top layer shadow */
+        0 5px 1px -3px rgba(255,255,255, 0.9),
+      /* The second layer */
+        0 25px 1px -11px rgba(252,170,229,1),
+      /* The second layer shadow */
+        0 30px 1px -14px rgba(255,255,255, 0.9),
+       /* The third layer */
+        0 45px 1px -17px rgba(252,170,229,1),
+      /* The third layer shadow */
+        0 50px 1px -20px rgba(255,255,255, 0.9);
+      /* Padding for demo purposes */
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+.cartQuestionsWrapper{
+    width: 100%;
+}
+.question{
+    padding: 8px;
+}
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) saturate(150%);
+    border: 1px solid rgba(255, 255, 255, 0.404);
+}
+.questionBox {
+    width: 90%;
+    height: 150px;
+    position: 'absolute';
+    top: 0;
+    cursor: "grab";
+}
+.hint{
+    font-size: 0.8rem;
+    line-height: 22px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.cartAnswers{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.answerVariant {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    border: 1px solid rgba(251,182,159,1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    background-color: inherit;
+    color: inherit;
+    font-weight: 500;
+}
+.answerVariant:hover {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+    background-color: rgba(251,182,159,1);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+
+.afterAnswerComment{
+    background: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    margin: 1px 10px;
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+    border-radius: 2px;
+    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+.bottomButtons {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10%;
+}
+
+.nextQuestion{
+    background-color: inherit;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+    border-style: hidden;
+}
+.nextQuestion:disabled{
+    background-color: inherit;
+    color: rgba(0, 0, 0, 0.45);
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+    border-style: hidden;
+}
+
+.endButtons {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+}
+.height50{
+    height: 50px;
+}
+.endButtons button{
+    height: 50px;
+    margin: 10px;
+}
+
+.wrapFinal{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.forAni{
+    position: absolute;
+    z-index: 999;
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+.bar{
+    width: 85%;
+    margin: 20px;
+}
+
+.correct {
+    border: 1px solid rgb(45, 255, 45);
+}
+
+

@@ -1,0 +1,168 @@
+
+/*  -----Education JS and WorkExperience JS -----*/
+
+.wrapperEverything{
+    position: relative;
+    overflow: hidden;
+}
+.wrapperEdu {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background: linear-gradient(45deg, #360033, #0b8793);
+    min-height: 100vh;
+}
+.flexColumnEdu {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 3rem;
+    margin-bottom: 100px;
+}
+
+.card{
+    height: auto;
+    width: 250px;
+    padding: 1rem 1rem;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #3bffa4;
+    border-radius: 25px;
+    box-shadow: 1px -1px 3px 1px rgba(246, 198, 234, 0.5), 1px 1px 3px 1px rgba(246, 198, 234, 0.5);
+    cursor: grab;
+}
+.mainText {
+    color: white;
+}
+
+.secondaryText {
+    color: #d1d1d1;
+    font-size: 0.7rem;
+    margin: 7px;
+}
+.dates{
+    color: #3bffa4;
+    font-size: 0.5rem;
+}
+
+.end{
+    position: absolute;
+    bottom: 5rem;
+}
+
+/*  SKILL JS */
+
+.mainTextSkills{
+    color: white;
+    margin-top: 30px;
+}
+
+.endSkills{
+    position: absolute;
+    bottom: 1rem;
+}
+
+.component{
+    margin: 5px 0;
+    padding: 10px 0;
+}
+.level{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progressBar {
+    height: 10px;
+    line-height: 1;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgba(211, 211, 211, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+    margin-top: 10px;
+}
+.progression {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background: linear-gradient(to left, #c6ffdd, #fbd786, #f7797d);
+    z-index: -1;
+}
+
+/* Hobby JS */
+
+.flexColumnHobbies {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 1.2rem;
+    margin-bottom: 150px;
+}
+
+.mainTextHobby{
+    color: white;
+    font-size: 2rem;
+}
+.secondaryTextVariant{
+    color: #3bffa4;
+    font-size: 0.9rem;
+}
+
+.cardHobby{
+    height: auto;
+    width: 70px;
+    padding: 1rem 1rem;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #3bffa4;
+    border-radius: 25px;
+    box-shadow: 1px -1px 3px 1px rgba(246, 198, 234, 0.5), 1px 1px 3px 1px rgba(246, 198, 234, 0.5);
+    cursor: grab;
+}
+.descriptionCard{
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    min-width: 60%;
+    max-width: 95%;
+    height: 200px;
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(16px) saturate(180%);
+    z-index: 999;
+    border-radius: 20px;
+}
+
+.descriptionCard > * {
+    padding: 0px 20px;
+    font-size: 1rem;
+    color: aqua;
+    margin: 10px;
+}
+
+.secondaryTextHobby{
+    color: #ffffff;
+    font-size: 1.7rem;
+    margin: 5px;
+}
